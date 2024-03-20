@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.one-book-cont {
+  width: 750px;
+  height: 450px;
+  border: 2px solid black;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  padding: 10px;
+  margin: 15px;
+}
+
+.main-cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  margin: 8px;
+}
+.one-book-info {
+  max-width: 75%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
